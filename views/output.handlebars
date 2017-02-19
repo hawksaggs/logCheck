@@ -1,0 +1,16 @@
+{{#if success}}
+{{#each data}}
+<div class="row">
+  <div class="col-md-12">
+    <p><strong>{{status}}</strong> {{line}}</p>
+  </div>
+</div>
+{{/each}}
+{{else}}
+<div class="row">
+  <div class="col-md-12">
+    <p>{{message}}</p>
+  </div>
+</div>
+
+{{/if}}
